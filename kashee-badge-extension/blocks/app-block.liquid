@@ -1,0 +1,30 @@
+<div style="padding: 50px; background-color: {{ block.settings.backgroundColor }}; text-align: center">
+  <img src="{{ 'kainero-logo.png' | asset_url }}" alt="Kashee Rewards" loading="lazy" width="{{ block.settings.badgeWidth }}" height="{{ block.settings.badgeHeight }}">
+</div>
+
+{% schema %}
+  {
+    "name": "Kashee Badge",
+    "target": "section",
+    "settings": [
+      {
+        "label":"Background Color",
+        "id":"backgroundColor",
+        "type":"color",
+        "default":"#000000"
+      },
+      {
+        "label":"Badge Width",
+        "id":"badgeWidth",
+        "type":"number",
+        "default":470
+      },
+      {
+        "label":"Badge Height",
+        "id":"badgeHeight",
+        "type":"number",
+        "default":100
+      }
+    ]
+  }
+{% endschema %}

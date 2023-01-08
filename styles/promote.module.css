@@ -1,0 +1,29 @@
+.SortListItem {
+  border: 1px solid silver;
+  border-radius: 3px;
+  list-style: none;
+  margin: 5px;
+  font-weight: 600;
+}
+
+.SortListUl {
+  list-style: decimal;
+  border-radius: 5px;
+  border: 1px solid silver;
+  float: left;
+  height: 70px;
+  width: 200px;
+  margin-top: 6px;
+  margin-bottom: -10px;
+}
+
+.SortListUl li:hover {
+  list-style: none;
+  font-weight: 600;
+  cursor: grab;
+  margin: 0;
+  width: 85%;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 1px solid silver;
+}

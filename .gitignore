@@ -1,0 +1,31 @@
+# Environment Configuration
+.env
+
+# Dependency directory
+node_modules
+
+# Test coverage directory
+coverage
+
+# Ignore Apple macOS Desktop Services Store
+.DS_Store
+
+# Logs
+logs
+*.log
+
+# ngrok tunnel file
+config/tunnel.pid
+
+# next build output
+.next/
+
+#environment
+.env
+.env.prod
+.env.local
+
+__azurite_db_queue__.json
+__azurite_db_queue_extent__.json
+
+.vscode
